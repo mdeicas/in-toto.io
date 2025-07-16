@@ -38,8 +38,15 @@ attestation/scai/attribute-report/v* https://github.com/in-toto/attestation/tree
 attestation/test-result https://github.com/in-toto/attestation/tree/main/spec/predicates/test-result.md
 attestation/test-result/v* https://github.com/in-toto/attestation/tree/main/spec/predicates/test-result.md
 
-attestation/vulns https://github.com/in-toto/attestation/tree/main/spec/predicates/vuln.md
-attestation/vulns/v* https://github.com/in-toto/attestation/tree/main/spec/predicates/vuln.md
+attestation/vulns/v0.1 https://github.com/in-toto/attestation/blob/main/spec/predicates/vuln.md
+attestation/vulns/v0.2 https://github.com/in-toto/attestation/blob/main/spec/predicates/vulns_02.md
+attestation/vulns https://github.com/in-toto/attestation/blob/main/spec/predicates/vulns_02.md
+
+attestation/reference/v0.1 https://github.com/in-toto/attestation/blob/main/spec/predicates/reference.md
+attestation/reference https://github.com/in-toto/attestation/blob/main/spec/predicates/reference.md
+
+attestation/scai/v0.3 https://github.com/in-toto/attestation/blob/main/spec/predicates/scai.md
+attestation/scai https://github.com/in-toto/attestation/blob/main/spec/predicates/scai.md
 
 {{ range $p := .Site.Pages -}}
 
